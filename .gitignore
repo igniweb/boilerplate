@@ -1,4 +1,5 @@
 /node_modules
+/public/dist
 /vendor
 .env
 .DS_Store

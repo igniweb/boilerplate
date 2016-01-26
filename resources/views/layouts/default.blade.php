@@ -3,12 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>Boilerplate</title>
-    @yield('styles')
 </head>
 <body>
-    <div class="container">
-        @yield('content')
-    </div>
-    @yield('scripts')
+	<div id="app">
+		<app-component></app-component>
+	</div>
+	<script type="/dist/js/bundle.js"></script>
 </body>
 </html>
