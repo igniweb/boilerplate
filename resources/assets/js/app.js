@@ -5,5 +5,8 @@ new Vue({
 	el: '#app',
 	components: {
 		'app-component': AppComponent
+	},
+	created() {
+		console.log('App created');
 	}
 });
