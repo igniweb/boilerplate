@@ -1,4 +1,16 @@
 import Vue from 'vue';
-import app from './app';
+import Alert from './components/Alert.vue';
+import Greeter from './components/Greeter.vue';
 
-new Vue(app).$mount('#app');
+new Vue({
+    el: '#app',
+
+    components: {
+    	Alert,
+    	Greeter
+    },
+    
+    ready() {
+        alert('Vue and Vueify all set to go!');
+    }
+});

@@ -15,7 +15,6 @@
     }
 </style>
 
-
 <template>
     <div class="Alert" v-bind:class="{ 'Alert--Success': type == 'success', 'Alert--Error': type == 'error' }" v-show="show">
         <p>
@@ -23,7 +22,6 @@
         </p>
     </div>
 </template>
-
 
 <script>
     export default {
@@ -34,6 +32,7 @@
                 show: true
             }
         },
+
         ready() {
             setTimeout(() => this.show = false, 3000);
         }
