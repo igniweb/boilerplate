@@ -1,4 +1,12 @@
-import Vue from 'vue';
+import Alert from './components/Alert.vue';
+
+export default {
+    components: {
+        'alert': Alert
+    }
+}
+
+/*
 import AppComponent from './components/app-component/app-component';
 
 new Vue({
@@ -10,3 +18,4 @@ new Vue({
 		console.log('App created');
 	}
 });
+*/

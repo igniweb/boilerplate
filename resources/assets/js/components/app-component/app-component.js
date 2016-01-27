@@ -4,8 +4,14 @@ import ListComponent from '../list-component/list-component';
 
 const AppComponent = Vue.extend({
 	template,
+	props: [
+		'locales'
+	],
 	components: {
 		'list-component': ListComponent
+	},
+	methods: {
+		//
 	}
 });
 

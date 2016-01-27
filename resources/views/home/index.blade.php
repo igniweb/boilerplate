@@ -2,10 +2,10 @@
 
 @section('content')
 <div id="app">
-	<app-component></app-component>
+	<alert type="error">Something Went Wrong!</alert>
 </div>
 @stop
 
 @section('scripts')
-<script src="/dist/js/bundle.js"></script>
+<script src="/js/main.js"></script>
 @stop

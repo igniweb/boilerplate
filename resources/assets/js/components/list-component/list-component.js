@@ -1,5 +1,6 @@
 import Vue from 'vue';
 import template from './list-component.html';
+import AppComponent from '../app-component/app-component';
 
 const ListComponent = Vue.extend({
 	template,
@@ -7,6 +8,11 @@ const ListComponent = Vue.extend({
 		return {
 			listItems: ['test1', 'test2']
 		};
+	},
+	methods: {
+		logLocales() {
+			console.log(this.$parent.locales.title);
+		}
 	}
 });
 
